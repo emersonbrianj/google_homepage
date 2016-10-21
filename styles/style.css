@@ -1,0 +1,118 @@
+
+/*HEADER*/
+#header {
+  list-style-type: none;
+}
+
+li {
+  display: inline;
+}
+
+li a {
+  font-family: Arial;
+  font-size: 13px;
+  float: right;
+  text-decoration: none;
+  padding: 8px 10px;
+  color: black;
+}
+
+li a:hover {
+  text-decoration: underline;
+}
+
+#signIn {
+  background-color: #4285f4;
+  display: inline-block;
+  color: white;
+  border-radius: 3px;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+img {
+  padding-top: 200px;
+  padding-bottom: 20px;
+  display: block;
+  margin: auto;
+  clear: right;
+}
+
+#search {
+  padding: 5px;
+  width: 500px;
+  height: 20px;
+  font-size: 16px;
+}
+
+#search:active {
+  border: 1px solid #0066ff;
+}
+
+#buttons {
+  display: inline-block;
+  padding: 10px;
+  border-radius: 2px;
+  background-color: #f2f2f2;
+  color: #808080;
+  font-weight: bold;
+  font-family: Arial;
+  font-size: 13px;
+}
+
+#buttons:hover {
+  color: black;
+  border: 1px solid #737373;
+}
+
+p{
+  font-family: Arial;
+  font-size: 13px;
+}
+p a {
+  text-decoration: none;
+}
+
+p a:hover {
+  text-decoration: underline;
+}
+
+/*Footer*/
+div.footer {
+  background-color: #f2f2f2;
+  position: absolute;
+  width: 100%;
+  box-sizing: border-box;
+  bottom: 0;
+}
+
+.left {
+  display: block;
+  font-family: Arial;
+  font-size: 13px;
+  float: left;
+  text-decoration: none;
+  padding: 10px 10px;
+  color: #808080;
+  background-color: #f2f2f2;
+}
+
+.left:hover {
+  text-decoration: underline;
+}
+
+
+.right {
+  display: block;
+  font-family: Arial;
+  font-size: 13px;
+  float: right;
+  text-decoration: none;
+  padding: 10px 10px;
+  color: #808080;
+  background-color: #f2f2f2;
+}
+
+.right:hover {
+  text-decoration: underline;
+}
